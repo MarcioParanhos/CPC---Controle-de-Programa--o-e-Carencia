@@ -148,16 +148,14 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa-solid fa-angle-down"></i>
+                               2022&nbsp;<i class="fa-solid fa-angle-down"></i>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
                                 <form class="navbar-search">
                                     <div class="input-group">
                                         <select id="Digitaçao" name="tipo_movimento" class="form-control" value="" required>
-                                            <option class="" value="Pendente" selected>2022
-                                            </option>
-                                            <option class="" value="Concluida">2021
-                                            </option>
+                                            <option class="" value="Pendente" selected>2022</option>
+                                            <option class="" value="Concluida">2021</option>
                                         </select>
                                         <div class="input-group-append">
                                             <button class="btn btn-primary" type="button">
@@ -171,7 +169,7 @@
                         <div class="topbar-divider d-none d-sm-block"></div>
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="ml-2 d-none d-lg-inline text-white">Marcio paranhos </span>
+                                <span class="ml-2 d-none d-lg-inline text-white">Marcio paranhos &nbsp;</span>
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">

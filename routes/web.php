@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NteController;
 
-Route::get('/', function () { return view('home/home'); });
-// NTE
-Route::get('/nte', function () { return view('nte/nte'); });
+// Home
+Route::get('/', [HomeController::class, 'index']);
+// Nte
+Route::get('/nte', [NteController::class, 'index']);
