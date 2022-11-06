@@ -24,7 +24,7 @@
                     <!-- <a title="Contatos Gestores" href=""><button class="hide btn btn-sm btn-success"><strong>TIPOLOGIA / MODALIDADE</strong> <i class="fa-solid fa-search"> </i></button></a> -->
                 </div>
                 <div class="table-responsive mt-2 p-1 ">
-                    <table id="myTable" class="table compact table-hover align-items-center table-flush">
+                    <table id="myTable" class="table  compact table-hover align-items-center table-flush">
                         <thead class="thead-light">
                             <tr>
                                 <th></th>
@@ -40,16 +40,18 @@
                         </thead>
                         <tbody>
                             <tr class="">
+                            @foreach ($controle_ntes as $controle_nte)
                                 <td class="text-center"><i class="fa-solid fa-s"></i></td>
-                                <td class="">AMERICA DOURADA</td>
-                                <td class="text-center">COLEGIO ESTADUA SÃO SEBASTIÃO</td>
-                                <td class="text-center">1152457</td>
-                                <td class="text-center">Pendente</td>
-                                <td class="text-center">Pendente</td>
-                                <td class="text-center">Sim</td>
-                                <td class="text-center">Aberto</td>
-                                <td class="text-center"><a href="#"><button class="btn btn-sm btn-primary"><i class="fas fa-search"></i></button></a></td>
+                                <td class="">{{$controle_nte -> municipio}}</td>
+                                <td class="">{{$controle_nte -> unidade_escolar}}</td>
+                                <td class="text-center">{{$controle_nte -> cod_unidade}}</td>
+                                <td class="text-center">{{$controle_nte -> digitacao}}</td>
+                                <td class="text-center">{{$controle_nte -> homologacao}}</td>
+                                <td class="text-center">{{$controle_nte -> carencia}}</td>
+                                <td class="text-center">{{$controle_nte -> componente}}</td>
+                                <td class="text-center"><a href="/show/uee/{{$controle_nte -> id}}"><button class="btn btn-sm btn-primary"><i class="fas fa-search"></i></button></a></td>
                             </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>

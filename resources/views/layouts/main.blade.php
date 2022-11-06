@@ -48,8 +48,8 @@
                 <div id="collapseBootstrap" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Controle</h6>
-                        <a class="collapse-item" href="/nte"><i class="fa-solid fa-angle-right"></i> 01</a>
-                        <a class="collapse-item" href="#"><i class="fa-solid fa-angle-right"></i> 02</a>
+                        <a class="collapse-item" href="/nte/1"><i class="fa-solid fa-angle-right"></i> 01</a>
+                        <a class="collapse-item" href="/nte/5"><i class="fa-solid fa-angle-right"></i> 05</a>
                     </div>
                 </div>
             </li>
